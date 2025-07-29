@@ -17,7 +17,6 @@ export default function MapDisplay({ items, className = '' }: MapDisplayProps) {
 
     const loadMap = async () => {
       const L = await import('leaflet')
-      await import('leaflet/dist/leaflet.css')
 
       if (!mapRef.current) return
 
