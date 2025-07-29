@@ -76,7 +76,7 @@ export interface Itinerary {
   id: string
   title: string
   description: string
-  duration: '1-day' | '2-day' | '3-day' | '4-day' | '5-day' | '6-day' | '7-day' | 'weekend'
+  duration: '1-day' | '2-day' | '3-day' | '4-day' | '5-day' | '6-day' | '7-day'
   items: ItineraryItem[]
   created_at: string
   user_preferences: UserPreference[]
