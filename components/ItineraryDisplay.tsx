@@ -163,10 +163,10 @@ export default function ItineraryDisplay({ itinerary }: ItineraryDisplayProps) {
               <Download className="w-4 h-4" />
               Download
             </button>
-            <button className="flex items-center gap-2 text-primary-600 hover:text-primary-800 text-sm font-medium">
-              <RefreshCw className="w-4 h-4" />
-              Regenerate
-            </button>
+          <button className="flex items-center gap-2 text-primary-600 hover:text-primary-800 text-sm font-medium">
+            <RefreshCw className="w-4 h-4" />
+            Regenerate
+          </button>
           </div>
         </div>
       </div>

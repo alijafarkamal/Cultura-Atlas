@@ -450,31 +450,31 @@ export default function Home() {
               <div className="flex items-center justify-center space-x-4 mb-8">
                 <div className="text-center">
                                   <div className="w-16 h-16 bg-gradient-to-r from-amber-400 to-orange-500 rounded-full flex items-center justify-center mb-2">
-                  <span className="text-white font-bold">🎵</span>
+                    <span className="text-white font-bold">🎵</span>
+                  </div>
+                  <p className="text-white text-sm">Your Tastes</p>
                 </div>
-                <p className="text-white text-sm">Your Tastes</p>
-              </div>
               <ArrowRight className="w-8 h-8 text-amber-400" />
-              <div className="text-center">
+                <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mb-2">
-                  <span className="text-white font-bold">🧠</span>
+                    <span className="text-white font-bold">🧠</span>
+                  </div>
+                  <p className="text-white text-sm">AI Analysis</p>
                 </div>
-                <p className="text-white text-sm">AI Analysis</p>
-              </div>
               <ArrowRight className="w-8 h-8 text-amber-400" />
-              <div className="text-center">
+                <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center mb-2">
-                  <span className="text-white font-bold">🗺️</span>
+                    <span className="text-white font-bold">🗺️</span>
+                  </div>
+                  <p className="text-white text-sm">Qloo Graph</p>
                 </div>
-                <p className="text-white text-sm">Qloo Graph</p>
-              </div>
               <ArrowRight className="w-8 h-8 text-amber-400" />
-              <div className="text-center">
+                <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-amber-500 rounded-full flex items-center justify-center mb-2">
-                  <span className="text-white font-bold">✨</span>
+                    <span className="text-white font-bold">✨</span>
+                  </div>
+                  <p className="text-white text-sm">Your Journey</p>
                 </div>
-                <p className="text-white text-sm">Your Journey</p>
-              </div>
               </div>
             </div>
           </div>
@@ -636,12 +636,12 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                                 <div className="text-3xl font-bold text-amber-300 mb-2">50+</div>
-              <div className="text-white/70">Cities Worldwide</div>
-            </div>
-            <div className="text-center">
+                  <div className="text-white/70">Cities Worldwide</div>
+                </div>
+                <div className="text-center">
               <div className="text-3xl font-bold text-amber-300 mb-2">10K+</div>
-              <div className="text-white/70">Happy Travelers</div>
-            </div>
+                  <div className="text-white/70">Happy Travelers</div>
+                </div>
               </div>
             </div>
 
